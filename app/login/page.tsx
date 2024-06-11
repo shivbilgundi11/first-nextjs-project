@@ -16,6 +16,9 @@ export default function LoginPage() {
           </div>
         </div>
         <LoginForm />
+        <p>Note: Use below credentials to login.</p>
+        <p className='font-semibold text-sm'>Email: user@nextmail.com</p>
+        <p className='font-semibold text-sm'>Password: 123456</p>
       </div>
     </main>
   );
